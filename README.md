@@ -35,6 +35,11 @@ Usage (Linux)
 
 1. `docker run -i -t github.com/kirbsayshi/yoda-stories-docker`
 
+Notes
+-----
+
+Sound doesn't work at the moment. It might on Linux with some effort, such as forwarding the sound devices with `-v /dev/snd` or sending the audio over a socket.
+
 Inspiration / Thanks
 --------------------
 
