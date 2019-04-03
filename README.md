@@ -5,13 +5,13 @@ Run the classic 1997 LucasArts game Yoda Stories via Docker. This means running 
 
 Note: I haven't tested this on Linux, but... it's Docker.
 
-As of 2019, this doesn't work anymore due to who knows what. But wine has actually become pretty easy to get running these days (copy/paste the following into a terminal):
+**As of 2019, this doesn't work anymore due to who knows what. But wine has actually become pretty easy to get running these days (copy/paste the following into a terminal):**
 
 ```
 brew install wine
 curl -L -O https://github.com/kirbysayshi/yoda-stories-docker/raw/master/docker/yoda-stories.tgz
 tar -xvf yoda-stories.tgz
-cd YODA
+cd Yoda
 wine YODESK.EXE
 ```
 
